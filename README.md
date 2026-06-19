@@ -147,11 +147,11 @@ The Streamlit application delivers:
 
 ## 🗂️ Repository Structure
 
-```
+
 - `mcdm_tool_2024_2025.py`: Main Python script containing the full analytical pipeline (Data loading, Weighting with Random Forest/Entropy, TOPSIS implementation, and Results export).
 - `requirements.txt`: List of Python libraries required to run the project.
 - `README.md`: Project documentation and overview.
-```
+
 
 ---
 
