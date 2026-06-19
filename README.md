@@ -148,17 +148,9 @@ The Streamlit application delivers:
 ## 🗂️ Repository Structure
 
 ```
-player-selection-mcda/
-├── data/                          # Raw and processed Kaggle datasets
-├── src/
-│   ├── mcdm_tool_2024_2025.py     # Main pipeline (loading → weighting → TOPSIS → export)
-│   ├── weighting/                 # Random Forest, Entropy, CRITIC implementations
-│   ├── topsis/                    # TOPSIS algorithm
-│   └── evaluation/                # NDCG, Kendall's τ, sensitivity analysis
-├── app/                           # Streamlit DSS interface
-├── outputs/                       # Exported rankings (CSV) & figures
-├── requirements.txt
-└── README.md
+- `mcdm_tool_2024_2025.py`: Main Python script containing the full analytical pipeline (Data loading, Weighting with Random Forest/Entropy, TOPSIS implementation, and Results export).
+- `requirements.txt`: List of Python libraries required to run the project.
+- `README.md`: Project documentation and overview.
 ```
 
 ---
